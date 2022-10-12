@@ -28,4 +28,15 @@ def multiply (x,y):
 n1 = int(input("enter x "))
 n2 = int(input("enter y "))
 print("multiply")
-multiply(n1,n2)     
+multiply(n1,n2) 
+
+
+def division(x,y):
+    result = x/y
+    print(result)
+    
+#division of n1 and n2
+n1 = int(input("enter x "))
+n2 = int(input("enter y "))
+print("divide")
+division(n1,n2)
