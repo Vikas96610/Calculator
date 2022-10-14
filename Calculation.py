@@ -8,6 +8,7 @@ n2 = int(input("ënter y "))#taking input from user as y. Converting this to int
 print("add")
 add(n1 , n2)               #calling the functn add along with passing n1 and n2 as 2 argument(args) 
 
+
 def subtract (x,y):
     result = x - y
     print(result)
@@ -16,5 +17,15 @@ def subtract (x,y):
 n1 = int(input("enter x "))
 n2 = int(input("enter y "))
 print("subtract")
-subtract(n1,n2)
+subtract(n1,n2) 
+
+
+def multiply (x,y):
+    result = x * y
+    print(result)
     
+#multiplication of n1 and n2
+n1 = int(input("enter x "))
+n2 = int(input("enter y "))
+print("multiply")
+multiply(n1,n2)     
